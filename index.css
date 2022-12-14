@@ -1,0 +1,92 @@
+*{
+    background-color:thistle;
+
+
+    
+
+
+}
+
+h1{
+   margin-left: 40%;
+    color: blanchedalmond;
+
+}
+
+.pot{
+    width: 80px;
+    height: 0px;
+    position: absolute;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 80px solid #fae29c ;
+    top: 220px;
+    left: 310px;
+    z-index: 5;
+    margin-left: 15%;
+   }
+
+   .petal{
+    height: 100px;
+     width: 40px;
+     background-color: #43A047;
+     border-radius: 10px 10px 0px 0px;
+     position: absolute;
+     left: 330px;
+     top: 120px;
+     z-index: -1;
+     transform: rotate(0deg);  
+     margin-left: 15%;
+     right: 20%;
+   }
+
+   .petal1{
+    height: 100px;
+     width: 30px;
+     background-color: #43A047;
+     border-radius: 10px 10px 0px 0px;
+     position: absolute;
+     left: 40px;
+     bottom: -2px;
+     top: 10px;
+     z-index: -1;
+     transform: rotate(30deg);  
+     margin-left: 80%;
+     margin-bottom: 100%;
+
+   }
+
+.petal2{
+    
+     height: 100px;
+     width: 30px;
+     background-color: #43A047;
+     border-radius: 10px 10px 0px 0px;
+     position: relative;
+     
+     bottom: -1px;
+     margin-right: 150%;
+     right: 70%;
+     z-index: -1;
+     transform: rotate(-20deg);  
+   
+}
+
+.petal3{
+    height: 100px;
+     width: 30px;
+     background-color: #43A047;
+     border-radius: 10px 10px 0px 0px;
+     position: relative;
+     left: 100%; 
+     bottom: 98px;
+     right: 100%;
+    z-index: -1;
+     transform: rotate(20deg); 
+
+}
+
+
+
+
+
